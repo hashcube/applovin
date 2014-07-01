@@ -14,7 +14,7 @@ Include it in the `manifest.json` file under the "addons" section for your game:
 ],
 ~~~
 
-To specify your game's AppLovinSdkKey, edit the `manifest.json "ios" section as shown below:
+To specify the AppLovinSdkKey, edit the `manifest.json "ios" section as shown below:
 
 ~~~
 	"ios": {
@@ -24,9 +24,9 @@ To specify your game's AppLovinSdkKey, edit the `manifest.json "ios" section as 
 
 Note that the manifest keys are case-sensitive.
 
-You can test for successful integration via the Chartboost website after successfully building and running your game on a network-connected device.
+You can test for successful integration via the applovin website after successfully building and running your game on a network-connected device.
 
-To show interstitials using Chartboost in your game, import the chartboost object:
+To show interstitials using applovin in your game, import the applovin object:
 
 ~~~
 import plugins.applovin.applovin as applovin;
