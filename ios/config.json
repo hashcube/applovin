@@ -1,0 +1,27 @@
+{
+	"code": [
+		"ApplovinPlugin.h",
+		"ApplovinPlugin.mm"
+	],
+	"frameworks": [
+		"AdSupport",
+		"CoreTelephony",
+		"CoreGraphics",
+		"MediaPlayer",
+		"SystemConfiguration",
+		"UIKit",
+		"applovin-ios-sdk-2.4.1/libAppLovinSdk.a"
+	],
+	"libraries": [
+		"applovin-ios-sdk-2.4.1"
+	],
+	"userDefined": [
+		"AppLovinSdkKey"
+	],
+	"linkerFlags": [
+		"-ObjC"
+	],
+	"plist": {
+		"AppLovinSdkKey": "$(AppLovinSdkKey)"
+	}
+}
