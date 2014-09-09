@@ -5,15 +5,17 @@
 	],
 	"frameworks": [
 		"AdSupport",
+		"AVFoundation",
 		"CoreTelephony",
 		"CoreGraphics",
+		"CoreMedia",
 		"MediaPlayer",
 		"SystemConfiguration",
 		"UIKit",
-		"applovin-ios-sdk-2.4.1/libAppLovinSdk.a"
+		"applovin-ios-sdk-2.5.1/libAppLovinSdk.a"
 	],
 	"libraries": [
-		"applovin-ios-sdk-2.4.1"
+		"applovin-ios-sdk-2.5.1"
 	],
 	"userDefined": [
 		"AppLovinSdkKey"
