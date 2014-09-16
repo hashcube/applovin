@@ -12,10 +12,10 @@
 		"MediaPlayer",
 		"SystemConfiguration",
 		"UIKit",
-		"applovin-ios-sdk-2.5.1/libAppLovinSdk.a"
+		"applovin-ios-sdk/libAppLovinSdk.a"
 	],
 	"libraries": [
-		"applovin-ios-sdk-2.5.1"
+		"applovin-ios-sdk"
 	],
 	"userDefined": [
 		"AppLovinSdkKey"

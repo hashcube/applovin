@@ -30,18 +30,18 @@
 
 - (void) showInterstitial:(NSDictionary *)jsonObject {
 	ALInterstitialAd* inter = [[ALInterstitialAd alloc] initWithSdk: [ALSdk shared]];
-    
-    inter.adDisplayDelegate = self;
+
+	inter.adDisplayDelegate = self;
 
 	[inter showOver: [[UIApplication sharedApplication] keyWindow] andRender: self.cachedAd];    
 }
 
 -(void) ad:(ALAd *) ad wasDisplayedIn: (UIView *)view {
-    NSLog(@"{applovin} displayed interstitial");
+	NSLog(@"{applovin} displayed interstitial");
 }
 
 -(void) ad:(ALAd *) ad wasClickedIn: (UIView *)view {
-    NSLog(@"{applovin} clicked interstitial");
+	NSLog(@"{applovin} clicked interstitial");
 }
 
 -(void) ad:(ALAd *) ad wasHiddenIn: (UIView *)view {
