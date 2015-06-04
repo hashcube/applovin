@@ -14,16 +14,13 @@
 		"UIKit",
 		"applovin-ios-sdk/libAppLovinSdk.a"
 	],
-	"libraries": [
-		"applovin-ios-sdk"
-	],
 	"userDefined": [
 		"AppLovinSdkKey"
 	],
-	"linkerFlags": [
+	"additionalLinkerFlags": [
 		"-ObjC"
 	],
 	"plist": {
-		"AppLovinSdkKey": "$(AppLovinSdkKey)"
+		"AppLovinSdkKey": "$(applovin.AppLovinSdkKey)"
 	}
 }
