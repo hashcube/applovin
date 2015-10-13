@@ -9,10 +9,9 @@
 		"CoreTelephony",
 		"CoreGraphics",
 		"CoreMedia",
-		"MediaPlayer",
 		"SystemConfiguration",
 		"UIKit",
-		"applovin-ios-sdk/libAppLovinSdk.a"
+		"libAppLovinSdk.a"
 	],
 	"userDefined": [
 		"AppLovinSdkKey"
