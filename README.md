@@ -6,12 +6,12 @@ This plugin allows you to display interstitials using apploving on iOS
 
 Install the addon with `basil install applovin`.
 
-Include it in the `manifest.json` file under the "addons" section for your game:
+Include it in the `manifest.json` file under the "dependencies" section for your game:
 
 ~~~
-"addons": [
-	"applovin"
-],
+"dependencies": {
+	"applovin": "https://github.com/hashcube/applovin.git#master"
+}
 ~~~
 
 To specify the AppLovinSdkKey, edit the `manifest.json "ios" section as shown below:
